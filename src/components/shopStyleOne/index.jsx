@@ -96,7 +96,7 @@ export default function ShopStyleOne() {
           </View>
         ))}
       </ScrollView>
-      <View className="goods-more">查看更多11 </View>
+      <View className="goods-more">查看更多111 </View>
     </View>
   );
 }
