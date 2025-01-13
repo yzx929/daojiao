@@ -4,6 +4,7 @@ import './index.less';
 import SwiperOne from '../../components/yzxSwiper/index';
 import ShopItem from '../../components/shopList/index';
 import ShopStyleOne from '../../components/shopStyleOne/index';
+import Counter from '../counter/counter';
 
 export default function Index() {
   const [shopList] = useState(['梧村店1', '石澳店']);
@@ -40,9 +41,7 @@ export default function Index() {
       <SwiperOne />
       <ShopItem />
       <ShopStyleOne />
-      <ShopStyleOne />
-      <ShopStyleOne />
-      <ShopStyleOne />
+      <Counter />
     </View>
   );
 }

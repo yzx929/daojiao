@@ -4,7 +4,8 @@ export default defineAppConfig({
     'pages/category/index',
     'pages/welfare/index',
     'pages/cart/index',
-    'pages/mine/index'
+    'pages/mine/index',
+    'pages/counter/counter'
   ],
 
   tabBar: {
